@@ -1,0 +1,27 @@
+.demoCardDev {
+    background-color: rgb(222, 219, 219);
+    /* border: 1px solid red; */
+    object-fit: contain;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 90%;
+
+
+}
+
+.demoCardInstructions {
+    background-color: rgba(0, 0, 255, 0.481);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.demoCardNumber {
+    padding: 5px;
+    padding-bottom: 10px;
+    /* display: none; */
+}

@@ -1,0 +1,267 @@
+.header__Container {
+    background-color: #131A22;
+    width: 100%;
+    /* border:  1px solid red; */
+
+}
+
+.header {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.header__logo {
+background-image: url("../images/icons/amazon_PNG11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+    zoom: 1.5;
+  margin-top: 10px;
+   
+
+
+
+
+
+}
+
+.header__logo:hover,
+.header__option__location:hover {
+    border: 1px solid white;
+
+}
+
+.header__placeIcon {
+    /* background: url('https://ik.imagekit.io/AmazonClone1/amazon-image/amazon-image/new-nav-sprite-global-2x_blueheaven-account._CB658093869_.png?updatedAt=1682493559745') no-repeat 30.25% 70.851%;
+    width: 31px;
+    height: 36px;
+    zoom: -4; */
+
+
+}
+
+.header__option__location {
+    display: flex;
+
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+
+
+}
+
+.header__search {
+    width: 80% !important;
+    margin-left: 72px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+
+    height: 38px;
+    margin-top: 8px;
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    margin: 0 20px;
+
+
+}
+
+.header__selector__option {
+    padding: 20px;
+    background-color: #fff;
+    /* border: 1px solid red; */
+
+}
+
+.nav__dropdown {
+    width: 80px;
+    height: 40px;
+    border-right: none;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+    color: black;
+    font-size: 1rem;
+}
+
+.header__searchInput {
+    height: 38px;
+    padding: 10px !important;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.header__searchInput::placeholder {
+    font-size: 20px;
+}
+
+.navbar__seaarchboxdiv {
+    background-color: #FEBE68;
+    padding: 5px;
+    height: 38px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    /* margin-top: 8px; */
+}
+
+
+.header__searchIcon {
+    background: url('https://ik.imagekit.io/AmazonClone1/amazon-image/amazon-image/new-nav-sprite-global-2x_blueheaven-account._CB658093869_.png?updatedAt=1682493559745') no-repeat 29.762% 50.157%;
+    background-size: 275px 500px;
+    width: 23px;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* border:  1px solid red; */
+    /* text-align: center; */
+
+
+}
+
+
+.header__option2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    border: 1px solid red;
+    width: max-content;
+    height: max-content;
+    padding: 4px;
+    width: 100px;
+
+}
+
+
+
+
+
+.header__navLeft {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    /* border: 1px solid red; */
+    height: 60px;
+
+    align-items: center;
+}
+
+.header__navRight {
+    display: flex;
+    justify-content: space-evenly;
+    width: 16%;
+    /* border: 1px solid red; */
+    height: 60px;
+
+    align-items: center;
+
+}
+
+.header__optionLineOne {
+    font-size: 12px;
+    font-weight: 700;
+
+
+}
+
+.header__optionLineTwo {
+    font-size: 18px;
+    font-weight: 900;
+
+
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.ShoppingBasketIcon {
+    background: url('https://ik.imagekit.io/AmazonClone1/amazon-image/amazon-image/new-nav-sprite-global-2x_blueheaven-account._CB658093869_.png?updatedAt=1682493559745') no-repeat 4.583% 50.737%;
+    background-size: 275px 500px;
+    width: 35px;
+    height: 25px;
+}
+
+.header__basketCount {
+    margin-left: -20px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: #FEBE68;
+
+}
+
+.header__clearLink {
+    text-decoration: none;
+}
+
+/* nav footer  ========================== */
+
+.navbar__footer {
+    width: 100%;
+    height: 40px;
+
+    background-color: #22303E;
+    color: white;
+    display: flex;
+
+
+}
+
+.navbar__footer_text {
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.navbar__footer_text:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.navbar__footerIcon {
+    background: url('https://ik.imagekit.io/AmazonClone1/amazon-image/amazon-image/new-nav-sprite-global-2x_blueheaven-account._CB658093869_.png?updatedAt=1682493559745') no-repeat 7.843% 78.423%;
+    background-size: 275px 500px;
+    width: 20px;
+    height: 18px;
+    color: white;
+    z-index: 800;
+    display: inline-flex;
+    margin-right: 5px;
+
+
+}
