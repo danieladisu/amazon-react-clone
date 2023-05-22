@@ -29,3 +29,10 @@ functinos
 
 ```
 # Firebase Functions
+
+functions
+firebase
+package-lock.json
+```
+firebase
+./src/components/js/firebase.js
